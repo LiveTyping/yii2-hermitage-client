@@ -7,24 +7,24 @@ Yii2 Adapter for [Hermitage Client](https://github.com/LiveTyping/hermitage-php-
 
 1. Run the [Composer](http://getcomposer.org/download/) command to install the latest version:
 
-```bash
-composer require livetyping/yii2-hermitage-client ~0.1
-```
+    ```bash
+    composer require livetyping/yii2-hermitage-client ~0.1
+    ```
 
 2. Add the component to `config/main.php`:
 
-```php
-'components' => [
-    // ...
-    'hermitage' => [
-        'class' => 'livetyping\hermitage\client\yii2\Component',
-        'secret' => '<secret value>',
-        'baseUri' => 'http://hermitage',
-        // 'algorithm' => 'sha256',
+    ```php
+    'components' => [
+        // ...
+        'hermitage' => [
+            'class' => 'livetyping\hermitage\client\yii2\Component',
+            'secret' => '<secret value>',
+            'baseUri' => 'http://hermitage',
+            // 'algorithm' => 'sha256',
+        ],
+        // ...
     ],
-    // ...
-],
-```
+    ```
 
 # Usage
 
