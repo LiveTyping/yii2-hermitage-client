@@ -1,0 +1,28 @@
+{
+    "name": "livetyping/yii2-hermitage-client",
+    "type": "yii2-extension",
+    "description": "Yii2 Hermitage Client Adapter",
+    "keywords": ["hermitage", "client", "images", "yii2"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Kudinov",
+            "email": "i.kudinov@frostealth.ru",
+            "homepage": "http://frostealth.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "yiisoft/yii2": "~2.0",
+        "livetyping/hermitage-php-client": "~0.1"
+    },
+    "require-dev": {
+        "phpro/grumphp": "~0.9",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "livetyping\\hermitage\\client\\yii2\\": "src/"
+        }
+    }
+}
